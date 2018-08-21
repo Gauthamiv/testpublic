@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config password="S74eyfpFpqpU1S2ADsqoftSpQ2g=" apikey="6BE654057457177FA9B14A6ADE82F215" signed="true"> 
+  <template name="obits.xsl" type="default"/>  
+  <property name="page-size" value="25"/>  
+  <property name="highlight" value="1"/>  
+  <property name="sort" value="relevance"/>  
+  <property name="searchform" value="1"/>  
+  <property name="cluster" value="false"/>  
+  <property name="cache" value="false"/>  
+  <collection id="1" name="SanDiego" index="DISK" language="en" role="" group="" creationdate="1373401420730"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="false"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="true"/>  
+    <property name="spelling" value="false"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/images/SavedObits/San Diego Union Tribune (SDUT)"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="JPEG"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="PPT"/>  
+      <format type="MPEG"/>  
+      <format type="MP4"/>  
+      <format type="DWG"/>  
+      <format type="PST"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="WP"/>  
+      <format type="PDF"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="DAILY" timestamp="10-07-2013 21:00:00"/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="2" name="WebObits" index="DISK" language="en" role="" group="" creationdate="1396988376123"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="true"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="false"/>  
+    <property name="spelling" value="true"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/obitc/getObits/"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="PPT"/>  
+      <format type="MPEG"/>  
+      <format type="DWG"/>  
+      <format type="MP4"/>  
+      <format type="PST"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="WP"/>  
+      <format type="PDF"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="HOURLY" timestamp=""/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="3" name="LosAngelesArea" index="DISK" language="en" role="" group="" creationdate="1372371910171"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="false"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="true"/>  
+    <property name="spelling" value="false"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/images/SavedObits/Long Beach Press Telegram (LBPT)"/>  
+      <root url="/share/images/SavedObits/Los Angeles Daily News (LADN)"/>  
+      <root url="/share/images/SavedObits/Los Angeles Times (LAT)"/>  
+      <root url="/share/images/SavedObits/Pasadena Star News (PSN)"/>  
+      <root url="/share/images/SavedObits/Torrance Daily Breeze (TDB)"/>  
+      <root url="/share/images/SavedObits/San Gabriel Valley Tribune (SGVT)"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="JPEG"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="MPEG"/>  
+      <format type="PPT"/>  
+      <format type="PST"/>  
+      <format type="DWG"/>  
+      <format type="MP4"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="PDF"/>  
+      <format type="WP"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="DAILY" timestamp="27-06-2013 18:15:00"/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="4" name="OrangeCo" index="DISK" language="en" role="" group="" creationdate="1372372079873"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="false"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="true"/>  
+    <property name="spelling" value="false"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/images/SavedObits/Orange County Register (OCR)"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="JPEG"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="MPEG"/>  
+      <format type="PPT"/>  
+      <format type="PST"/>  
+      <format type="DWG"/>  
+      <format type="MP4"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="PDF"/>  
+      <format type="WP"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="DAILY" timestamp="27-06-2013 20:00:00"/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="5" name="SanBernardino" index="DISK" language="en" role="" group="" creationdate="1372372149460"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="false"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="true"/>  
+    <property name="spelling" value="false"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/images/SavedObits/San Bernardino County Sun (SBCS)"/>  
+      <root url="/share/images/SavedObits/Inland Valley Daily Bulletin (IVDB)"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="JPEG"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="MPEG"/>  
+      <format type="PPT"/>  
+      <format type="PST"/>  
+      <format type="DWG"/>  
+      <format type="MP4"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="PDF"/>  
+      <format type="WP"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="DAILY" timestamp="27-06-2013 20:30:00"/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="6" name="LasVegas" index="DISK" language="en" role="" group="" creationdate="1372372251766"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="false"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="true"/>  
+    <property name="spelling" value="false"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/images/SavedObits/Las Vegas Review Journal (LVRJ)"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="MPEG"/>  
+      <format type="PPT"/>  
+      <format type="PST"/>  
+      <format type="MP4"/>  
+      <format type="DWG"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="PDF"/>  
+      <format type="WP"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="DAILY" timestamp="27-06-2013 17:45:00"/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="7" name="Seattle" index="DISK" language="en" role="" group="" creationdate="1372372304492"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="false"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="true"/>  
+    <property name="spelling" value="false"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/images/SavedObits/Seattle Times (ST)"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="JPEG"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="MPEG"/>  
+      <format type="PPT"/>  
+      <format type="PST"/>  
+      <format type="DWG"/>  
+      <format type="MP4"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="PDF"/>  
+      <format type="WP"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="DAILY" timestamp="27-06-2013 22:00:00"/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="8" name="dir-1900-2010-PDF" index="DISK" language="en" role="" group="" creationdate="1402432053784"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="true"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="false"/>  
+    <property name="spelling" value="true"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/streetIndex/pdf"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="JPEG"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="MPEG"/>  
+      <format type="PPT"/>  
+      <format type="PST"/>  
+      <format type="DWG"/>  
+      <format type="MP4"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="PDF"/>  
+      <format type="WP"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="HOURLY" timestamp=""/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="9" name="dir-1900-2010-TEXT" index="DISK" language="en" role="" group="" creationdate="1399497256121"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="true"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="false"/>  
+    <property name="spelling" value="true"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/streetIndex/text"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="JPEG"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="PPT"/>  
+      <format type="MPEG"/>  
+      <format type="MP4"/>  
+      <format type="DWG"/>  
+      <format type="PST"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="WP"/>  
+      <format type="PDF"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="HOURLY" timestamp=""/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="10" name="dir-CA-1947-PDF" index="DISK" language="en" role="" group="" creationdate="1404232970062"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="true"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="false"/>  
+    <property name="spelling" value="true"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="FILE"> 
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/cityDir/pdf"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="BMP"/>  
+      <format type="PAGES"/>  
+      <format type="EPUB"/>  
+      <format type="PSD"/>  
+      <format type="KEY"/>  
+      <format type="WORD"/>  
+      <format type="TIFF"/>  
+      <format type="JPEG"/>  
+      <format type="XML"/>  
+      <format type="PNG"/>  
+      <format type="MPG"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="VSD"/>  
+      <format type="AIFF"/>  
+      <format type="WAV"/>  
+      <format type="MIDI"/>  
+      <format type="RTF"/>  
+      <format type="EXCEL"/>  
+      <format type="GIF"/>  
+      <format type="JPG"/>  
+      <format type="SVG"/>  
+      <format type="PPT"/>  
+      <format type="MPEG"/>  
+      <format type="MP4"/>  
+      <format type="DWG"/>  
+      <format type="PST"/>  
+      <format type="MP3"/>  
+      <format type="FLV"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="TEXT"/>  
+      <format type="WP"/>  
+      <format type="PDF"/>  
+      <format type="NUMBERS"/>  
+      <format type="MID"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="HOURLY" timestamp=""/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="11" name="WebObits2" index="DISK" language="en" role="superadmin" group="" creationdate="1512759748013"> 
+    <property name="sentiment" value="false"/>  
+    <property name="kwic" value="true"/>  
+    <property name="folders" value=""/>  
+    <property name="entity-lib" value="stanford"/>  
+    <property name="sb_boost" value="1"/>  
+    <property name="stemming" value="true"/>  
+    <property name="entity" value="false"/>  
+    <property name="mailtype" value="all"/>  
+    <property name="duplicates" value="false"/>  
+    <property name="deeplearning" value="false"/>  
+    <property name="deeplearning-model" value="model1.smdx"/>  
+    <property name="spelling" value="true"/>  
+    <property name="ocr" value="false"/>  
+    <property name="sentiment-field" value="undefined"/>  
+    <property name="entity-field" value="undefined"/>  
+    <property name="deeplearning-field" value="undefined"/>  
+    <property name="logging" value="false"/>  
+    <scanner type="FILE"> 
+      <property name="fast-max-thread" value="50"/>  
+      <property name="max-size" value="-1"/>  
+      <property name="max-age" value="-1"/>  
+      <root url="/share/obitc/getObits/"/>  
+      <url allow="true" pattern=".*"/>  
+      <format type="EML"/>  
+      <format type="MPEG"/>  
+      <format type="WORD"/>  
+      <format type="EXCEL"/>  
+      <format type="PAGES"/>  
+      <format type="FLV"/>  
+      <format type="MIDI"/>  
+      <format type="GIF"/>  
+      <format type="MPG"/>  
+      <format type="VSD"/>  
+      <format type="MSG"/>  
+      <format type="RTF"/>  
+      <format type="BMP"/>  
+      <format type="MP4"/>  
+      <format type="MP3"/>  
+      <format type="TIFF"/>  
+      <format type="NUMBERS"/>  
+      <format type="PNG"/>  
+      <format type="MID"/>  
+      <format type="SVG"/>  
+      <format type="JPG"/>  
+      <format type="EPUB"/>  
+      <format type="AIFF"/>  
+      <format type="PPT"/>  
+      <format type="WP"/>  
+      <format type="PST"/>  
+      <format type="PDF"/>  
+      <format type="WAV"/>  
+      <format type="KEY"/>  
+      <format type="XML"/>  
+      <format type="TEXT"/>  
+      <format type="HTML"> 
+        <property name="description" value="META"/> 
+      </format>  
+      <format type="ZIP"/>  
+      <format type="AIF"/>  
+      <format type="ODF"/>  
+      <format type="PSD"/>  
+      <format type="DWG"/> 
+    </scanner>  
+    <schedule action="clear" frequency="HOURLY" timestamp=""/>  
+    <schedule action="index" frequency="HOURLY" timestamp=""/>  
+    <schedule action="refresh" frequency="HOURLY" timestamp=""/>  
+    <schedule action="optimize" frequency="HOURLY" timestamp=""/> 
+  </collection>  
+  <collection id="9997" name="cluster" index="DISK" language="en" role="" group="" creationdate="0"> 
+    <property name="sentiment" value="false"/>  
+    <property name="kwic" value="true"/>  
+    <property name="entity-lib" value="stanford"/>  
+    <property name="sb_boost" value="1"/>  
+    <property name="stemming" value="false"/>  
+    <property name="entity" value="false"/>  
+    <property name="duplicates" value="false"/>  
+    <property name="deeplearning" value="false"/>  
+    <property name="deeplearning-model" value=""/>  
+    <property name="ocr" value="false"/>  
+    <property name="spelling" value="false"/>  
+    <property name="sentiment-field" value=""/>  
+    <property name="deeplearning-field" value=""/>  
+    <property name="entity-field" value=""/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="CUSTOM_COMBINED"> 
+      <property name="user-agent" value="SearchBlox"/>  
+      <property name="form-action" value="post"/>  
+      <property name="follow-sitemap" value="false"/>  
+      <property name="max-size" value="100240"/>  
+      <property name="max-depth" value="6"/>  
+      <property name="fast-max-thread" value="50"/>  
+      <property name="max-age" value="-1"/>  
+      <property name="ignore-robots" value="false"/>  
+      <property name="delay" value="0"/>  
+      <property name="follow-redirect" value="true"/> 
+    </scanner> 
+  </collection>  
+  <collection id="9998" name="clicklogs" index="DISK" language="en" role="" group="" creationdate="0"> 
+    <property name="boost-description" value="1"/>  
+    <property name="kwic" value="true"/>  
+    <property name="stemming" value="false"/>  
+    <property name="boost-keywords" value="1"/>  
+    <property name="duplicates" value="false"/>  
+    <property name="spelling" value="false"/>  
+    <property name="boost-title" value="1"/>  
+    <property name="boost-body" value="1"/>  
+    <property name="logging" value="NORMAL"/>  
+    <scanner type="CUSTOM_COMBINED"> 
+      <property name="user-agent" value="SearchBlox"/>  
+      <property name="form-action" value="post"/>  
+      <property name="follow-sitemap" value="false"/>  
+      <property name="max-size" value="-1"/>  
+      <property name="max-depth" value="10"/>  
+      <property name="max-age" value="-1"/>  
+      <property name="ignore-robots" value="false"/>  
+      <property name="delay" value="0"/>  
+      <property name="follow-redirect" value="true"/> 
+    </scanner> 
+  </collection>  
+  <collection id="9999" name="ads" index="DISK" language="en" role="" group="" creationdate="0">
+    <property name="boost-description" value="1"/>
+    <property name="kwic" value="true"/>
+    <property name="stemming" value="false"/>
+    <property name="boost-keywords" value="1"/>
+    <property name="duplicates" value="false"/>
+    <property name="spelling" value="false"/>
+    <property name="boost-title" value="1"/>
+    <property name="boost-body" value="1"/>
+    <property name="logging" value="NORMAL"/>
+    <scanner type="CUSTOM_COMBINED">
+      <property name="user-agent" value="SearchBlox"/>
+      <property name="form-action" value="post"/>
+      <property name="follow-sitemap" value="false"/>
+      <property name="max-size" value="-1"/>
+      <property name="max-depth" value="10"/>
+      <property name="max-age" value="-1"/>
+      <property name="ignore-robots" value="false"/>
+      <property name="delay" value="0"/>
+      <property name="follow-redirect" value="true"/>
+    </scanner>
+  </collection>
+</config>
