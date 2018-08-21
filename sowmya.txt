@@ -1,0 +1,9 @@
+!-- saved from url=(0045)http://thegrayzone.co.uk/searchblox/four.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><meta name="published" content="2013-08-12"/>	<meta name="title" content="	test"><meta name="sub" content="category3"><link type="text/css" rel="stylesheet" href="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/style.css"><script type="text/javascript" charset="utf-8" src="chrome-extension://cpngackimfmofbokmjmljamhdncknpmg/page_context.js"></script></head>
+<meta name="robots" content="noindex,follow"/>
+	
+	<body screen_capture_injected="true">
+		<h1>Four</h1>
+		<p>This is the page four. I will mention the word guitar for searches.</p>
+	<a href ="https://www.searchblox.com">searchblox</a>
+</body></html>
